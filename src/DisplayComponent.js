@@ -8,8 +8,10 @@ class DisplayComponent extends Component
 	{
 		return(
 			<p>
-			{this.props.number}
-			{this.props.text}
+		{/*	{this.props.number}
+			{this.props.text}*/}
+			{this.props.post}<br/>
+			{this.props.test}
 			</p>
 			)
 	}
